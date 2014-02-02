@@ -11,5 +11,32 @@ package lab1;
  * @author Tammie
  */
 public abstract class WctcCourse {
+    private int crnNumber;
+    private String courseDept;
+
+    public int getCrnNumber() {
+        return crnNumber;
+    }
+
+    public WctcCourse(int crnNumber, String courseDept) {
+        this.crnNumber = crnNumber;
+        this.courseDept = courseDept;
+    }
+    
+
+    public void setCrnNumber(int crnNumber) {
+        this.crnNumber = crnNumber;
+    }
+
+    public String getCourseDept() {
+        return courseDept;
+    }
+
+    public void setCourseDept(String courseDept) {
+        this.courseDept = courseDept;
+    }
+    
+    
+    
     
 }
