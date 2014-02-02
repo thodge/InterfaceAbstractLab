@@ -1,13 +1,13 @@
 package lab2;
 
 /**
- * Describe responsibilities here.
+ * This class lists properties and methods for the Intro to Java course
  *
- * @author      your name goes here
+ * @author      Tammie Hodge
  * @version     1.00
  */
 public class IntroJavaCourse implements IwctcCourses{
-    String courseName;
+    private String courseName;
     private String courseNumber;
     private double credits;
     private String prerequisites;
@@ -16,6 +16,15 @@ public class IntroJavaCourse implements IwctcCourses{
         this.courseName = courseName;
         this.courseNumber = courseNumber;
     }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+    
 
     public String getCourseNumber() {
         return courseNumber;
@@ -40,6 +49,8 @@ public class IntroJavaCourse implements IwctcCourses{
     public void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }
+
+
 
     
 }

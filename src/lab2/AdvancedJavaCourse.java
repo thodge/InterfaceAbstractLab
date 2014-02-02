@@ -3,12 +3,12 @@ package lab2;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * This class lists properties and methods for the Advanced Java course
  *
- * @author      your name goes here
+ * @author      Tammie Hodge
  * @version     1.00
  */
-public class AdvancedJavaCourse {
+public class AdvancedJavaCourse implements IwctcCourses{
     private String courseName;
     private String courseNumber;
     private double credits;

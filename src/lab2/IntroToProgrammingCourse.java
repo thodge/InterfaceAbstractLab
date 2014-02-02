@@ -3,9 +3,9 @@ package lab2;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * This class lists properties and methods for the Intro to Programming course
  *
- * @author      your name goes here
+ * @author      Tammie Hodge
  * @version     1.00
  */
 public class IntroToProgrammingCourse implements IwctcCourses{

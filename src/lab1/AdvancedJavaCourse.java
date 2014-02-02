@@ -3,7 +3,7 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * This class lists properties and methods for the Advanced Java course
  *
  * @author      your name goes here
  * @version     1.00
@@ -17,6 +17,10 @@ public class AdvancedJavaCourse extends WctcCourse{
     public AdvancedJavaCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
         this.setCourseNumber(courseNumber);
+    }
+
+    AdvancedJavaCourse() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getCapitalizedCourseName() {
@@ -36,6 +40,11 @@ public class AdvancedJavaCourse extends WctcCourse{
         }
         this.prerequisites = prerequisites;
     }
+
+    public double getCredits() {
+        return credits;
+    }
+    
 
     public void setCredits(double credits) {
         if(credits < 0.5 || credits > 4.0) {

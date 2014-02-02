@@ -1,7 +1,7 @@
 package lab1;
 
 /**
- * Describe responsibilities here.
+ * This class lists properties and methods for the Intro to Java course
  *
  * @author      your name goes here
  * @version     1.00
@@ -15,6 +15,19 @@ public class IntroJavaCourse extends WctcCourse{
     public IntroJavaCourse(String courseName, String courseNumber) {
         this.courseName = courseName;
         this.courseNumber = courseNumber;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+    
+
+    IntroJavaCourse() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getCourseNumber() {
