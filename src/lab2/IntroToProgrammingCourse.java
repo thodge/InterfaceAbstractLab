@@ -19,15 +19,6 @@ public class IntroToProgrammingCourse implements IwctcCourses{
         this.setCourseNumber(courseNumber);
     }
 
-    public String getPrerequisites() {
-        return prerequisites;
-    }
-
-    public void setPrerequisites(String prerequisites) {
-        this.prerequisites = prerequisites;
-    }
-    
-
     public String getCourseNumber() {
         return courseNumber;
     }
@@ -65,6 +56,10 @@ public class IntroToProgrammingCourse implements IwctcCourses{
             System.exit(0);
         }
         this.courseName = courseName;
+    }
+
+    public String getPrerequisites() {
+        throw new UnsupportedOperationException("There are no prerequisites"); //To change body of generated methods, choose Tools | Templates.
     }
 
     

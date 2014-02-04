@@ -8,6 +8,9 @@ package lab1;
 
 
 public class Startup {
+    public static void main(String[] args) {
+        
+    
     
             WctcCourse[] courses = {new AdvancedJavaCourse(), new IntroJavaCourse()};
         
@@ -15,4 +18,5 @@ public class Startup {
         for(WctcCourse w : courses) {
             w.getCredits();
         }
+}
 }

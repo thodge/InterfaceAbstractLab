@@ -19,7 +19,7 @@ public class AdvancedJavaCourse extends WctcCourse{
         this.setCourseNumber(courseNumber);
     }
 
-    AdvancedJavaCourse() {
+    public AdvancedJavaCourse() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
