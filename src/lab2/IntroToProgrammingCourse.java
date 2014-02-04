@@ -12,7 +12,7 @@ public class IntroToProgrammingCourse implements IwctcCourses{
     private String courseName;
     private String courseNumber;
     private double credits;
-    private String prerequisites;
+    
 
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
